@@ -12,6 +12,11 @@ To get started:
   - FacebookSDK framework
   - FacebookSDKResources.bundle
   - FBUserSettingsViewResources.bundle
+3/ create a Facebook app at: https://developers.facebook.com/apps
+  - add the bundle ID com.facebook.mddbasicsession.MDDBasicSessionApp
+  - add an iPhone App Store ID
+  - enable Facebook Login
+  - enable Deep Linking (not used in this example, but useful later)
 3/ build
 4/ run
 
