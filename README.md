@@ -8,10 +8,12 @@ This repro includes:
 To get started:
 
 1. download and install the iOS SDK from: https://developers.facebook.com/ios/
-2. add the following to the project:
-  - FacebookSDK framework
+  - in the Getting Started tutorial, follow setup #5 closely when:
+  - adding equired frameworks including FacebookSDK and its dependencies (Accounts, AdSupport, Social, and libsqlite3)
+  - setting the FacebookAppID in the plist
+  - setting the URL Type => Item 0 => URL Schemes => Item 0 => fb{appId} in the plist
+2. add the resource bundle:
   - FacebookSDKResources.bundle
-  - FBUserSettingsViewResources.bundle
 3. create a Facebook app at: https://developers.facebook.com/apps
   - add the bundle ID com.facebook.mddbasicsession.MDDBasicSessionApp
   - add an iPhone App Store ID
